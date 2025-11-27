@@ -74,7 +74,6 @@ export async function GET(request: Request) {
       sameSite: "lax",
       path: "/",
       maxAge: 60 * 60 * 7, // 7 hours in seconds
-      //   domain: isProd ? "loyalty.genuka.com" : undefined,
     });
 
     return NextResponse.redirect(redirectTo);
