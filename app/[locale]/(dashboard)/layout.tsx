@@ -1,5 +1,5 @@
 import React from "react";
-import ThemeProvider from "../../providers/theme-provider";
+import ThemeProvider from "../../../providers/theme-provider";
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
